@@ -18,7 +18,7 @@ namespace WingtipToys.Models
 
         public System.DateTime DateCreated { get; set; }
 
-        public string ProductId { get; set; }
+        public int ProductId { get; set; }
 
         public virtual Product Product { get; set; }
 
